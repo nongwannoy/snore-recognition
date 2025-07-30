@@ -1,0 +1,22 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.3.1
+  jschwefel/esp-idf-ds3231:
+    component_hash: ccc75c80386785c254a306585f3f02dd07ce3bd430b025cf3f96b7c954150be6
+    dependencies:
+    - name: idf
+      registry_url: https://components.espressif.com
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.3
+direct_dependencies:
+- idf
+- jschwefel/esp-idf-ds3231
+manifest_hash: a11b82de2b783fa9a2cd8c94e7d396c38bb413ab0ebde2140764ea173ffaa7c0
+target: esp32s3
+version: 2.0.0

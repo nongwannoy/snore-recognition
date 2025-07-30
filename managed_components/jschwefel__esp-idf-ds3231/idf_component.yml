@@ -1,0 +1,21 @@
+dependencies:
+  idf:
+    version: '>=5.0'
+description: An esp-idf component for the Analog Devices (Maxim Integrated) DS3231
+  RTC chip/module.
+documentation: https://docs.esp-idf-ds3231.schwefel.net/en/latest/
+issues: https://github.com/jschwefel/esp-idf-ds3231/issues
+license: MIT
+maintainers:
+- Jason M Schwefel <jason.schwefel78@gmail.com>
+repository: git://github.com/jschwefel/esp-idf-ds3231.git
+repository_info:
+  commit_sha: 56891467442492e8f98d978669c373c37d4738a7
+  path: .
+tags:
+- time
+- RTC
+- DS3231
+- I2C
+url: https://github.com/jschwefel/esp-idf-ds3231
+version: 1.0.3

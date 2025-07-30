@@ -65,11 +65,11 @@ void i2s_init() {
       .clk_cfg = I2S_STD_CLK_DEFAULT_CONFIG(kAudioSampleFrequency),
       .slot_cfg = I2S_STD_PHILIPS_SLOT_DEFAULT_CONFIG(I2S_DATA_BIT_WIDTH_16BIT, I2S_SLOT_MODE_MONO),
       .gpio_cfg = {
-          .mclk = I2S_GPIO_UNUSED,
-          .bclk = GPIO_NUM_32,
-          .ws = GPIO_NUM_25,
-          .dout = I2S_GPIO_UNUSED,
-          .din = GPIO_NUM_33,
+        .mclk = I2S_GPIO_UNUSED,
+        .bclk = GPIO_NUM_4,
+        .ws = GPIO_NUM_5,
+        .dout = I2S_GPIO_UNUSED,
+        .din = GPIO_NUM_19,
           .invert_flags = {
               .mclk_inv = false,
               .bclk_inv = false,
